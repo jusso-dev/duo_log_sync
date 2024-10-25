@@ -1,7 +1,7 @@
 #syntax=docker/dockerfile:experimental
 # Base our Docker image off of the Python 3.7 slim Docker image. Slim means 
 # that only the minimal packages needed to run Python are included
-FROM python:3.7-slim
+FROM python:3.13-slim
 
 # Mount is used for the run operation, rather than making a copy of DuoLogSync 
 # onto the Docker container, because it is a more performant operation. For 
