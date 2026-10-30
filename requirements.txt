@@ -171,8 +171,7 @@ zipp==3.1.0 \
     # via
     #   -r requirements.in
     #   importlib-metadata
-
-# WARNING: The following packages were not pinned, but pip requires them to be
-# pinned when the requirements file includes hashes. Consider using the --allow-unsafe flag.
-# setuptools
-setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools==78.1.1 \
+    --hash=sha256:c3a9c4211ff4c309edb8b8c4f1cbfa7ae324c4ba9f91ff254e3d305b9fd54561 \
+    --hash=sha256:fcc17fd9cd898242f6b4adfaca46137a9edef687f43e6f78469692a5e70d851d
+    # via -r requirements.in
